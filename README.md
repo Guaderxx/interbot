@@ -40,7 +40,11 @@ Telegram的开源双向机器人。避免垃圾信息；让被限制的客户可
 
 ## 三、部署运行
 
+### go install
 
+1. 下载可执行文件：`go install github.com/Guaderxx/interbot/amd/app1`
+2. 复制 `config/example.toml` 配置文件，修改其中参数，其中 `bot_token, mongouri, mdb, admin_group_id, admin_user_ids` 为必填项。
+3. 启动：`app1 --config locale_config.toml`
 
 # 关于
 

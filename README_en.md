@@ -40,7 +40,11 @@ The main principle of this bot is to forward the conversation between the client
 
 ## 3. Deployment and Execution
 
+### go install
 
+1. Install executable file: `go install github.com/Guaderxx/interbot/amd/app1`
+2. Copy the `config/example.toml` to local, change the config, **must** change `bot_token, mongouri, mdb, admin_group_id, admin_user_ids`
+3. Start: `app1 --config locale_config.toml`
 
 # About
 
