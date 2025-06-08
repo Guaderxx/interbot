@@ -7,6 +7,8 @@ A golang version of [Telegram-interactive-bot][tgbot]
 
 Telegram的开源双向机器人。避免垃圾信息；让被限制的客户可以顺利联系到你。 支持后台多客服。在后台群组，可以安排多个客服以同一个机器人身份持续和客户沟通。
 
+[English][enmd]
+
 
 ### 特色
 
@@ -45,3 +47,4 @@ Telegram的开源双向机器人。避免垃圾信息；让被限制的客户可
 本项目灵感来源于 [Telegram-interactive-bot][tgbot]
 
 [tgbot]: https://github.com/MiHaKun/Telegram-interactive-bot
+[enmd]: https://github.com/Guaderxx/interbot/blob/main/README_en.md
