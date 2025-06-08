@@ -1,0 +1,28 @@
+app_name = "appname"
+bot_token = "bottoken"
+
+mongouri = "mongodb://127.0.0.1:27017"
+mdb = "tg"
+
+# 各类内置ID可以通过 @GetTheirIDBot 获取
+admin_group_id = -1
+admin_user_ids = [0,1]
+
+welcome_message = "你好，我是BOT"
+
+# 删除话题时是否永久封禁（无法恢复了） TRUE 开启
+delete_topic_as_forever_ban = false
+
+# 利用 /clear 清理后台和用户侧的所有消息（不推荐） TRUE 开启
+delete_user_message_on_clear_cmd = true
+
+# 是否禁用人机识别 TRUE 禁用
+disable_captcha = false
+
+# 防止无聊客户不停刷消息。单位：秒。0为不限制
+message_interval = 5
+
+[log]
+add_source = false
+formatter = 'json'
+level = 'warn'
